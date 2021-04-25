@@ -1,0 +1,54 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+
+header{
+    
+float: left;
+width: 96%;
+padding: 2%;
+background-color: brown;
+
+}
+nav{
+    float: left;
+    width: 84%;
+    padding: 8%;
+    
+    background-color: rgb(255, 136, 0);
+}
+#navi{
+    float: left;
+    width: 96%;
+    padding: 2%;
+    background-color:cyan;
+}
+
+.pok{
+   float: left;
+   width: 14%;
+   padding: 10%;
+    background-color:rgb(255, 0, 0);
+}
+.pok2{
+    float:left;
+    width: 14%;
+    padding: 10%;
+    background-color:indigo;
+}
+.pok3{
+    float: left;
+    width: 12%;
+    padding: 10%;
+    background-color:gold;
+}
+footer{
+    float: left;
+width: 96%;
+padding: 2%;
+background-color: rgb(42, 44, 165);
+}
+
+
+
