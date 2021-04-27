@@ -1,54 +1,99 @@
 *{
     margin: 0px ;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-header{
+.Principal{
+    width: 70%;
+    height: auto;
+    background-color: darkgreen;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: chartreuse;
+    padding: 20px;
+  
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 166, 0);
+    padding: 100px;
+}
+.header1{
+     width: 100%;
+    height: auto;
+    background-color: rgb(0, 195, 255);
+    padding: 24px;
+  
+}
+.container{
+    width: 100%;
     
-float: left;
-width: 96%;
-padding: 2%;
-background-color: brown;
-
-}
-nav{
-    float: left;
-    width: 84%;
-    padding: 8%;
+    background-color: brown;
+    display: flex;
     
-    background-color: rgb(255, 136, 0);
+   
+
 }
-#navi{
-    float: left;
-    width: 96%;
-    padding: 2%;
-    background-color:cyan;
+.caja{
+    width: 33%;
+    height: auto;
+    background-color: chartreuse;
+    height: 300px;
+    text-align: center;
+}
+.caja1{
+    width: 33%;
+    height: auto;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    
+    
+   
+}
+.caja2{
+    width: 34%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
 }
 
-.pok{
-   float: left;
-   width: 14%;
-   padding: 10%;
-    background-color:rgb(255, 0, 0);
+@media screen and (max-width:600px) {
+    
+    .container{
+        width: 100%;
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+    }
+    .caja{
+        width: 100%;
+        height: auto;
+        background-color: chartreuse;
+        height: 320px;
+        text-align: center;
+    }
+    .caja1{
+        width: 100%;
+        height: auto;
+        height: 320px;
+        background-color: rgb(255, 0, 0);
+        
+        
+       
+    }
+    .caja2{
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        height: 320px;
+        text-align: center;
+    }
+       
+    
 }
-.pok2{
-    float:left;
-    width: 14%;
-    padding: 10%;
-    background-color:indigo;
-}
-.pok3{
-    float: left;
-    width: 12%;
-    padding: 10%;
-    background-color:gold;
-}
-footer{
-    float: left;
-width: 96%;
-padding: 2%;
-background-color: rgb(42, 44, 165);
-}
-
-
-
